@@ -81,7 +81,7 @@
                             <input class="w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-black" type="text" required="" value="<?php echo $row['company']?>" name="product_company">
                             <label class="text-xs font-bold after:content-['*'] after:text-red-400" for="password">Product Image</label>
                             <input class="w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-black" type="text" required="" value="<?php echo $row['image']?>" name="product_image">
-                            <button name="update" class="w-full mb-3 rounded bg-black text-white p-2 text-center font-bold hover:bg-slate-800 cursor-pointer">Add now</button>
+                            <button name="update" class="w-full mb-3 rounded bg-black text-white p-2 text-center font-bold hover:bg-slate-800 cursor-pointer">Update now</button>
                              <a href="#" cLass="cursor-pointer my-6"><label class="text-md font-bold" for="password">All ready product for update now..!!</label></a>
                         </fieldset>
                     </form>
