@@ -24,7 +24,7 @@
 </head>
 <body class="bg-gray-500">
     <?php include "./header/header.php";?>
-    <div class="container mt-24 mx-auto relative z-20">
+    <div class="container mt-24 mx-auto md:px-10  relative z-20">
          <section class=" bg-white w-full p-4 rounded-xl min-h-[50vh]">
             <div class="hero gap-4 md:block md:flex align-center">
                 <div class="md:w-1/2 w-full flex flex-col gap-4 p-10">
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </section>
-        <section class=" rounded-xl mt-3 mb-6 min-h-[60vh] p-4 bg-white my-3 flex md:flex-row flex-col items-center justify-center gap-3">
+        <section class="contanier rounded-xl mt-3 mb-6 min-h-[60vh] p-4 bg-white my-3 flex md:flex-row flex-col items-center justify-center gap-3">
                 <?php
                     $select = "SELECT * FROM `storage`";
                     $show_two_product = mysqli_query($sql,$select);

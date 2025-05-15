@@ -47,7 +47,7 @@
       </a>
     </div>
     <div>
-      <a href="http://localhost/php-project/add_product.php" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-white mt-4 lg:mt-0">Download</a>
+      <a href="http://localhost/php-project/add_product.php" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-white mt-4 lg:mt-0">Add now</a>
     </div>
   </div>
   <div class="text-sm lg:flex-grow hidden lg:flex">
